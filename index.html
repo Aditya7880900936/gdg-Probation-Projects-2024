@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AI.IO</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">AI.IO</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div class="nav__btns">
+            <button class="btn"><i class="ri-search-line"></i></button>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container__left">
+            <h1>Enjoy With Future</h1>
+            <div class="container__btn">
+                <button class="btn">Explore More</button>
+            </div>
+        </div>
+        <div class="container__right">
+            <div class="images">
+                <img src="./images/pexels-pavel-danilyuk-8438979.jpg" alt="tent-1" class="tent-1" />
+                <img src="./images/pexels-tara-winstead-8386440.jpg" alt="tent-2" class="tent-2" />
+            </div>
+            <div class="content">
+                <h4>Welcome to AI.IO</h4>
+                <h2>Articially powered website</h2>
+                <h3>
+                    Explore, innovate, and harness AI.</h3>
+                <p>
+                    Welcome to our AI website, where innovation meets creativity! Explore cutting-edge technologies,
+                    discover insightful articles, and engage with tools that empower you to harness the full potential
+                    of artificial intelligence.
+                </p>
+            </div>
+        </div>
+        <div class="location">
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            OUR LOCATION
+        </div>
+        <div class="socials">
+            <span>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+            </span>
+            <span>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+            </span>
+            <span>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </span>
+        </div>
+    </div>
+
+    <section id="feature-section">
+        <div class="timeline">
+            <div class="container1 left-container">
+                <img src="./images/images/amazon.png" alt="">
+                <div class="text-box">
+                    <h2>Alphabet Inc.</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore non officia eveniet
+                        assumenda perspiciatis. Ab, provident hic? Alias quae deleniti, quibusdam vero ad mollitia?</p>
+                        <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="container1 right-container">
+                <img src="./images/images/flipkart.png" alt="">
+
+                <div class="text-box">
+                    <h2>Alphabet Inc.</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore non officia eveniet
+                        assumenda perspiciatis. Ab, provident hic? Alias quae deleniti, quibusdam vero ad mollitia?</p>
+                        <span class="right-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="container1 left-container">
+                <img src="./images/images/google.png" alt="">
+
+                <div class="text-box">
+                    <h2>Alphabet Inc.</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore non officia eveniet
+                        assumenda perspiciatis. Ab, provident hic? Alias quae deleniti, quibusdam vero ad mollitia?</p>
+                        <span class="left-container-arrow"></span>
+
+                </div>
+            </div>
+
+            <div class="container1  right-container">
+                <img src="./images/images/tesla.png" alt="">
+
+                <div class="text-box">
+                    <h2>Alphabet Inc.</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore non officia eveniet
+                        assumenda perspiciatis. Ab, provident hic? Alias quae deleniti, quibusdam vero ad mollitia?</p>
+                        <span class="right-container-arrow"></span>
+
+                </div>
+            </div>
+            <div class="container1 left-container">
+                <img src="./images/images/toyota.png " alt="">
+
+                <div class="text-box">
+                    <h2>Alphabet Inc.</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore non officia eveniet
+                        assumenda perspiciatis. Ab, provident hic? Alias quae deleniti, quibusdam vero ad mollitia?</p>
+                        <span class="left-container-arrow"></span>
+
+                </div>
+            </div>
+            <div class="container1  right-container">
+                <img src="./images/images/youtube.png" alt="">
+
+                <div class="text-box">
+                    <h2>Alphabet Inc.</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore non officia eveniet
+                        assumenda perspiciatis. Ab, provident hic? Alias quae deleniti, quibusdam vero ad mollitia?</p>
+                        <span class="right-container-arrow"></span>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="number" id="phone" placeholder="Your Mobile Number" required>
+            <textarea  id="message" rows="4" placeholder="How Can We Help You"></textarea>
+            <button type="submit">Send</button>
+          </form>
+    </section>
+
+    <section class="section__container">
+        <h2>Testimonials</h2>
+        <h1>What our customers say</h1>
+        <div class="section__grid">
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>Love the simplicity</h4>
+            <p>
+              They understood our brand and created a stunning website design.
+              Professional, responsive, and on-time delivery. Highly recommended!
+            </p>
+            <img src="./images/user-1.jpg" alt="user" />
+            <h5>Allan Collins</h5>
+            <h6>Managing Director</h6>
+          </div>
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>Excellent Designs</h4>
+            <p>
+              Efficient, reliable, and results-oriented. Visually appealing
+              website, improved online visibility. Highly recommended!
+            </p>
+            <img src="./images/user-2.jpg" alt="user" />
+            <h5>Tanya Grant</h5>
+            <h6>Ceo & Founder</h6>
+          </div>
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>Efficient and Reliable</h4>
+            <p>
+              Best decision we made. Stunning website, exceptional support. Always
+              available and prompt issue resolution. Hassle-free experience!
+            </p>
+            <img src="./images/user-3.jpg" alt="user" />
+            <h5>Clay Washington</h5>
+            <h6>Fashion Designer</h6>
+          </div>
+        </div>
+      </section>
+
+
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
